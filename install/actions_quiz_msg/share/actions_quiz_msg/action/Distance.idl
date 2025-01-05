@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from actions_quiz_msg/action/Distance.action
+// generated code does not contain a copyright notice
+
+
+module actions_quiz_msg {
+  module action {
+    struct Distance_Goal {
+      int32 seconds;
+    };
+    struct Distance_Result {
+      boolean status;
+
+      double total_dist;
+    };
+    struct Distance_Feedback {
+      double current_dist;
+    };
+  };
+};

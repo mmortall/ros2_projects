@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target log_demo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/log_demo.dir/src/logger_example.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/logs_test/src/logger_example.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/logs_test/src/logger_example.cpp:8:36:[m[K [01;31m[Kerror: [m[K'[01m[KRCUTILS_LOG_INFO[m[K' was not declared in this scope
+    8 |                                    [01;31m[KRCUTILS_LOG_INFO[m[K);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/log_demo.dir/build.make:76: CMakeFiles/log_demo.dir/src/logger_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/log_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

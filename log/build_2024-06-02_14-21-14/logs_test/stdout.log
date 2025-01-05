@@ -1,0 +1,20 @@
+[100%] Built target log_demo
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/lib/logs_test/log_demo
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test//launch
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test//launch/log_demo.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/package_run_dependencies/logs_test
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/parent_prefix_path/logs_test
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/packages/logs_test
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/package.xml

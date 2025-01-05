@@ -1,0 +1,34 @@
+[0.025s] Invoking command in '/home/user/ros2_ws/build/logs_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/logs_test -- -j8 -l8
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target log_demo[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/log_demo.dir/src/logger_example.cpp.o[0m
+[3.767s] [01m[K/home/user/ros2_ws/src/logs_test/src/logger_example.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[3.767s] [01m[K/home/user/ros2_ws/src/logs_test/src/logger_example.cpp:8:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[3.768s]     8 |   [01;35m[K                                 RCUTILS_LOG_SEVERITY_INFO);[m[K
+[3.768s]       |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.768s]     9 | 
+[3.768s]       |                                    
+[3.973s] [100%] [32m[1mLinking CXX executable log_demo[0m
+[4.115s] [100%] Built target log_demo
+[4.129s] Invoked command in '/home/user/ros2_ws/build/logs_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/logs_test -- -j8 -l8
+[4.196s] Invoking command in '/home/user/ros2_ws/build/logs_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/logs_test
+[4.204s] -- Install configuration: ""
+[4.204s] -- Installing: /home/user/ros2_ws/install/logs_test/lib/logs_test/log_demo
+[4.205s] -- Set runtime path of "/home/user/ros2_ws/install/logs_test/lib/logs_test/log_demo" to ""
+[4.206s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test//launch
+[4.206s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test//launch/log_demo.launch.py
+[4.206s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/package_run_dependencies/logs_test
+[4.206s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/parent_prefix_path/logs_test
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.sh
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.dsv
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.sh
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.dsv
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.bash
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.sh
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.zsh
+[4.207s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.dsv
+[4.208s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/package.dsv
+[4.208s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/packages/logs_test
+[4.208s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig.cmake
+[4.217s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig-version.cmake
+[4.218s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/package.xml
+[4.218s] Invoked command in '/home/user/ros2_ws/build/logs_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/logs_test

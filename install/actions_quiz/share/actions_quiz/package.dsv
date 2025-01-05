@@ -1,0 +1,8 @@
+source;share/actions_quiz/hook/cmake_prefix_path.ps1
+source;share/actions_quiz/hook/cmake_prefix_path.dsv
+source;share/actions_quiz/hook/cmake_prefix_path.sh
+source;share/actions_quiz/local_setup.bash
+source;share/actions_quiz/local_setup.dsv
+source;share/actions_quiz/local_setup.ps1
+source;share/actions_quiz/local_setup.sh
+source;share/actions_quiz/local_setup.zsh

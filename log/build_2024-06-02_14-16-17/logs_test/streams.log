@@ -1,0 +1,71 @@
+[0.020s] Invoking command in '/home/user/ros2_ws/build/logs_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/logs_test -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/logs_test
+[0.081s] -- The C compiler identification is GNU 11.2.0
+[0.137s] -- The CXX compiler identification is GNU 11.2.0
+[0.144s] -- Detecting C compiler ABI info
+[0.217s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.519s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.641s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.717s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.726s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.742s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.919s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.095s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.144s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.475s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.598s] -- Configured cppcheck include dirs: 
+[1.598s] -- Configured cppcheck exclude dirs and/or files: 
+[1.599s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.600s] -- Added test 'lint_cmake' to check CMake code style
+[1.601s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.603s] -- Added test 'uncrustify' to check C / C++ code style
+[1.603s] -- Configured uncrustify additional arguments: 
+[1.604s] -- Added test 'xmllint' to check XML markup files
+[1.607s] -- Configuring done
+[1.617s] -- Generating done
+[1.618s] -- Build files have been written to: /home/user/ros2_ws/build/logs_test
+[1.628s] Invoked command in '/home/user/ros2_ws/build/logs_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/logs_test -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/logs_test
+[1.630s] Invoking command in '/home/user/ros2_ws/build/logs_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/logs_test -- -j8 -l8
+[1.682s] [ 50%] [32mBuilding CXX object CMakeFiles/log_demo.dir/src/logger_example.cpp.o[0m
+[5.761s] [01m[K/home/user/ros2_ws/src/logs_test/src/logger_example.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[5.761s] [01m[K/home/user/ros2_ws/src/logs_test/src/logger_example.cpp:8:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.761s]     8 |   [01;35m[Krcutils_logging_set_logger_level(node->get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG)[m[K;
+[5.761s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.101s] [100%] [32m[1mLinking CXX executable log_demo[0m
+[6.228s] [100%] Built target log_demo
+[6.239s] Invoked command in '/home/user/ros2_ws/build/logs_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/logs_test -- -j8 -l8
+[6.284s] Invoking command in '/home/user/ros2_ws/build/logs_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/logs_test
+[6.291s] -- Install configuration: ""
+[6.291s] -- Installing: /home/user/ros2_ws/install/logs_test/lib/logs_test/log_demo
+[6.291s] -- Set runtime path of "/home/user/ros2_ws/install/logs_test/lib/logs_test/log_demo" to ""
+[6.291s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test//launch
+[6.292s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test//launch/log_demo.launch.py
+[6.292s] -- Installing: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/package_run_dependencies/logs_test
+[6.292s] -- Installing: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/parent_prefix_path/logs_test
+[6.292s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.sh
+[6.293s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.dsv
+[6.293s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.sh
+[6.293s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.dsv
+[6.293s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.bash
+[6.293s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.sh
+[6.294s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.zsh
+[6.294s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.dsv
+[6.294s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/package.dsv
+[6.294s] -- Installing: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/packages/logs_test
+[6.295s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig.cmake
+[6.295s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig-version.cmake
+[6.295s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/package.xml
+[6.297s] Invoked command in '/home/user/ros2_ws/build/logs_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/logs_test

@@ -1,0 +1,24 @@
+[0.024s] Invoking command in '/home/user/ros2_ws/build/logs_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/logs_test -- -j8 -l8
+[0.104s] [100%] Built target log_demo
+[0.121s] Invoked command in '/home/user/ros2_ws/build/logs_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/logs_test -- -j8 -l8
+[0.178s] Invoking command in '/home/user/ros2_ws/build/logs_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/logs_test
+[0.183s] -- Install configuration: ""
+[0.183s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/lib/logs_test/log_demo
+[0.183s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test//launch
+[0.184s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test//launch/log_demo.launch.py
+[0.184s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/package_run_dependencies/logs_test
+[0.184s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/parent_prefix_path/logs_test
+[0.184s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/ament_prefix_path.dsv
+[0.184s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.sh
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/environment/path.dsv
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.bash
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.sh
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.zsh
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/local_setup.dsv
+[0.185s] -- Installing: /home/user/ros2_ws/install/logs_test/share/logs_test/package.dsv
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/ament_index/resource_index/packages/logs_test
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig.cmake
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/cmake/logs_testConfig-version.cmake
+[0.185s] -- Up-to-date: /home/user/ros2_ws/install/logs_test/share/logs_test/package.xml
+[0.188s] Invoked command in '/home/user/ros2_ws/build/logs_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/logs_test
